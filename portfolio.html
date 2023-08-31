@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shubham - Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(7, 68, 124);
+            color: white;
+            font-family: 'Poppins', sans-series;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(25, 51, 98);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(20, 20, 102);
+            font-size: 1.1rem;
+        }
+
+        main hr {
+            border: 0;
+            background-color: rgb(11, 25, 104);
+            height: 1.2px;
+            margin: 60px 84px;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 120px 0;
+        }
+
+        .firstSection>div {
+            width: 30%;
+        }
+
+        .leftSection {
+
+            font-size: 3rem;
+        }
+        .leftSection .btn{
+            padding:50px 0 ;
+        }
+        .leftSection .btn{
+            padding: 12px;
+            background-color: #c3d3df;
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .rightSection img {
+            width: 100%;
+        }
+
+        .purple {
+            color: rgb(137, 81, 143);
+        }
+
+        .text-gray {
+            color: gray;
+        }
+
+        #element {
+            color: rgb(145, 100, 116);
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondSection h1 {
+            font-size: 1.9rem;
+        }
+
+        .secondSection .box {
+            background-color: white;
+            width: 70vw;
+            height: 2px;
+            margin: 56px;
+            display: flex;
+        }
+
+        .secondSection .vertical {
+            height: 120px;
+            width: 2px;
+            background-color: white;
+            margin: 0 70px;
+        }
+
+        .image-top {
+            width: 23px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 75px;
+            width: 150;
+            font-size: 14px;
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 86px;
+            color: gray;
+            width: 120px;
+            font-size: 9px;
+        }
+
+        .footer {
+            background-color: #0e0e1a;
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+        .footer ul{
+          list-style: none;
+        }
+        .footer > .div{
+            width:223px;
+        }
+        footer .footer-rights{
+            text-align: center;
+            color: gray;
+            padding: 12px 0;
+        }
+        .footer .footer-first {
+            display: flex;
+            padding: 30px;
+        }
+
+        .footer .footer-second {
+            cursor: pointer;
+        }
+
+        .footer .footer-third {
+            cursor: pointer;
+        }
+
+        .footer .footer-fourth {
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Shubham Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hey, My Name is <span class="purple">Shubham</span>
+                <div>
+                    <h5>....Web Developer....</h5>
+                </div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">
+                    <a href="Shubham CV.pdf" target="_thapa">Download Resume</a>
+                    </button>
+                    <button class="btn">
+                        <a href="https://github.com/shubhamnavathar" target="_thapa">visit Github</a>
+                    </button>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="new.png" alt="">
+            </div>
+
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text-gray">What I Have So far</span>
+            <h1>Work Experience</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="new1.png" alt="">
+                    <div class="vertical-title">
+                        Softwrare Developer (2017-2023)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, optio culpa possimus
+                        dignissimos, itaque incidunt omnis est, id recusandae aut aspernatur consequatur. Voluptatem,
+                        praesentium dolorum deserunt debitis odio aperiam. Soluta.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="fb.png" alt="">
+                    <div class="vertical-title">
+                        Facebook (2000-2003)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, optio culpa possimus
+                        dignissimos, itaque incidunt omnis est, id recusandae aut aspernatur consequatur. Voluptatem,
+                        praesentium dolorum deserunt debitis odio aperiam. Soluta.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="insta.png" alt="">
+                    <div class="vertical-title">
+                        insta Developer (2007-2009)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, optio culpa possimus
+                        dignissimos, itaque incidunt omnis est, id recusandae aut aspernatur consequatur. Voluptatem,
+                        praesentium dolorum deserunt debitis odio aperiam. Soluta.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="wp.png" alt="">
+                    <div class="vertical-title">
+                        whatsapp Developer (2010-2013)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, optio culpa possimus
+                        dignissimos, itaque incidunt omnis est, id recusandae aut aspernatur consequatur. Voluptatem,
+                        praesentium dolorum deserunt debitis odio aperiam. Soluta.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="www.png" alt="">
+                    <div class="vertical-title">
+                        HTML Developer (2017-2023)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, optio culpa possimus
+                        dignissimos, itaque incidunt omnis est, id recusandae aut aspernatur consequatur. Voluptatem,
+                        praesentium dolorum deserunt debitis odio aperiam. Soluta.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="fb.png" alt="">
+                    <div class="vertical-title">
+                        Facebook Developer (2017-2023)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, optio culpa possimus
+                        dignissimos, itaque incidunt omnis est, id recusandae aut aspernatur consequatur. Voluptatem,
+                        praesentium dolorum deserunt debitis odio aperiam. Soluta.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="insta.png" alt="">
+                    <div class="vertical-title">
+                        Instagram Developer (2020-2023)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, optio culpa possimus
+                        dignissimos, itaque incidunt omnis est, id recusandae aut aspernatur consequatur. Voluptatem,
+                        praesentium dolorum deserunt debitis odio aperiam. Soluta.
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Shubham Developer Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">contact</a></li>
+                    <li><a href="/">services</a></li>
+                    <li><a href="/">feedback</a></li>
+                </ul>
+            </div>
+            <div class="footer-third">
+            <ul>    
+                <li><a href="/">Social Media</a></li>
+                <li><a href="/">Instagram</a></li>
+                <li><a href="/">Facebook</a></li>
+                <li><a href="/">Telegram</a></li>
+                <li><a href="/">Whatsapp</a></li>
+            </ul>
+
+            </div>
+            <div class="footer=fourth">
+            <ul>
+                <li><a href="/">Help</a></li>
+                <li><a href="/">About</a></li>
+                <li><a href="/">save</a></li>
+                <li><a href="/">Reload</a></li>
+                <li><a href="/">Exit</a></li>
+            </ul>
+
+            </div>
+        </div>
+        <div class="footer-rights">
+            copyright &#169;shubhamportfolio.com | All rights reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer.', 'Graphics Designer.'],
+            typeSpeed: 50,
+        });
+    </script>
+
+
+</body>
+
+</html>
